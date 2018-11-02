@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitCompany": "",
+    "baseName": "sampleGateway",
+    "packageName": "com.app",
+    "packageFolder": "com/app",
+    "serverPort": 9090,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "ko",
+    "languages": [
+      "en",
+      "ko"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.5.0",
+    "jwtSecretKey": "NDVlZGRmYzM1YTM4MGVkMDA4N2FlZWEwMmYxMjdlYjEwMTAxNjhlOWY4ZjkzM2RiMTI4ZjRkOWVlNzI3Mjc0YmUzZDQ5MWIyMjUxZjM0ZDhiZjZhZGRkNzhkZjViNjNiMWIxN2UwYjQ3NTJhMWM1Mzg0NjYzOGY0YmZjYmVmOWM="
+  },
+  "git-provider": "GitHub",
+  "git-company": "sglee21",
+  "repository-name": "sample-gateway"
+}
